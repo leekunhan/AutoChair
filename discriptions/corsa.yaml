@@ -1,0 +1,47 @@
+content:
+  description: 
+      feature1: |
+        舒適美型 閃耀登場
+        火星犀牛 極速超跑人體工學椅採用獨創
+        透氣紓壓椅座，搭配符合人體工學設計的
+        高彈力獵豹椅背，帶來舒適且精緻的坐感，
+        足以媲美沙發乘坐感受。同時，台灣頂級
+        製造工藝，更是完美的品質保證。
+      feature2: |
+        高彈力獵豹椅背
+        靈感來自陸地上速度最快的動物
+        「獵豹」，參考其流線的身形、
+        輕盈的骨架、彈性的身軀，設計
+        出符合人體工學的高彈力獵豹椅
+        背，可完美貼合腰部脊椎曲線並
+        給予支撐，倚靠舒適、堅固耐用。
+      feature3: |
+        可調式傾仰系統 & 角度固定
+        按照個人需求調整傾仰力道達到乘坐最佳狀態，
+        並可做兩段角度鎖定，滿足不同使用需求。
+      feature4: |
+        3D可調式紓壓扶手
+        扶手表面以高質感碳纖維紋理包覆，
+        並可依據個人喜好進行多段調整，
+        包含前後、旋轉與高低，輕鬆找到最
+        舒適的姿勢來擺放手腕和手肘。
+
+  suitability: "適合居家空間較小的使用情境"
+
+  special_feature:
+    - 獨創 2D 透氣紓壓頭枕
+    - 可調式滑動椅座
+    - 背部透氣設計
+    - 高質感精緻刺繡
+
+metadata:
+  name: "CORSA 極速"
+  suitable_size: "155-190cm"
+  has_waist_support: false
+  max_weight: "150kg"
+  max_width: "73cm"
+  max_height: "127cm"
+  min_height: "116cm"
+  chair_weight: "17.6kg"
+  url: "https://www.marsrhino.com/tw/product_detail?id=41&class_id=13"
+  img_path: "./chair_image/corsa.jpg"
