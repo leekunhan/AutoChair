@@ -16,6 +16,9 @@ function Chatbot() {
 
     const newUserMessage = { sender: "user", text: userInput };
     setMessages((prev) => [...prev, newUserMessage]);
+    
+    // 立即清空輸入框
+    setUserInput("");
 
     try {
       const res = await fetch("http://localhost:8000/search_chair", {
@@ -49,8 +52,6 @@ function Chatbot() {
       console.error("API Error:", err);
       setMessages((prev) => [...prev, { sender: "bot", text: "伺服器錯誤，請稍後再試。" }]);
     }
-
-    setUserInput("");
   };
 
   return (
